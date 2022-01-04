@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   padding: 50px;
+   font-family: 'Roboto', sans-serif;
+   height: 5000px;
+}
+
+#cta-6d972b1 {
+   background: #f4c60e;
+   color: #fff;
+   padding: 10px 15px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+}
+
+.popup {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+   background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.containerXYZ {
+   position: absolute;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(1, minmax(245px, 1fr));
+   grid-auto-rows: auto;
+   place-content: center;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-informations-title {
+   text-align: center;
+   grid-column: 1/3;
+   color: #f4c60e;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.contact-info {
+   padding: 20px 0;
+   display: flex;
+   justify-content: center;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-info > div {
+   display: inline-flex;
+   flex-direction: column;
+}
+
+.contact-info-el {
+   display: flex;
+   align-items: center;
+   margin: 10px 15px;
+}
+
+.contact-icon-info {
+   display: flex;
+   margin-right: 10px;
+   text-decoration: none;
+   color: #242429;
+   align-items: center;
+   transition: all 250ms;
+}
+
+.contact-icon-info span:hover {
+   color: #f4c60e;
+}
+
+.contact-icon-info:hover {
+   color: #f4c60e;
+}
+
+.contact-icon {
+   background: #f4f4f4;
+   margin-right: 5px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 250ms;
+}
+
+.contact-icon:hover {
+   background: #f4c60e;
+}
+
+.contact-icon:hover i {
+   color: #fff;
+}
+
+.contact-icon i {
+   color: rgba(0,0,0,.6);
+   transition: all 250ms;
+}
+
+.close {
+   position: absolute;
+   right: -15px;
+   top: -15px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 300ms;
+}
+
+.close:hover {
+   background: red;
+   color: #fff;
+   cursor: pointer;
+}
+
+.fab:hover, .fas:hover {
+   cursor: pointer;
+}
